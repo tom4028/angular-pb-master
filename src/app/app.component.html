@@ -1,0 +1,4 @@
+<!-- <app-test-item></app-test-item> -->
+<app-sidebar (inboxTypeSelected)="selectedType($event)"></app-sidebar>
+<app-mail-content [childInboxType]="parentInboxType"></app-mail-content>
+<router-outlet></router-outlet>
